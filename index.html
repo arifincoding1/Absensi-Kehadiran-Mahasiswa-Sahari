@@ -42,18 +42,24 @@
                 <option value="101 C">Ruang Komputer</option>
             </select>
 
-            <label> <!--Buat pilihan bulat-->
-            <input type="radio" name="Kehadiran" value="Hadir">
-            </label>
-            <label> <!--Buat pilihan bulat-->
-                <input type="radio" name="Kehadiran" value="Sakit">
+            <div class="radio-group">
+                <label class="radio-card">
+                    <input type="radio" name="Kehadiran" value="Hadir">
+                    ✅ Hadir
                 </label>
-                <label> <!--Buat pilihan bulat-->
+                <label class="radio-card">
+                    <input type="radio" name="Kehadiran" value="Sakit">
+                    🤒 Sakit
+                </label>
+                <label class="radio-card">
                     <input type="radio" name="Kehadiran" value="Izin">
-                    </label>
-                    <label> <!--Buat pilihan bulat-->
-                        <input type="radio" name="Kehadiran" value="Alfha">
-                        </label>
+                    📝 Izin
+                </label>
+                <label class="radio-card">
+                    <input type="radio" name="Kehadiran" value="Alfa">
+                    ❌ Alfa
+                </label>
+            </div>
 
             <button class="Kirim Bang Jgn Manja">Kirim Bang</button>
         </form>
