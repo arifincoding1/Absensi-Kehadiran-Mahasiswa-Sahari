@@ -94,12 +94,12 @@ select {
     font-size: 14px;
     outline: none;
     transition: border-color 0.2s;
-    background-color: #f8fafc;
+    background-color: #09b8ee;
 }
 
 input:focus, select:focus {
     border-color: #4f46e5;
-    background-color: #fff;
+    background-color: rgb(9, 243, 48);
     box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
 }
 
