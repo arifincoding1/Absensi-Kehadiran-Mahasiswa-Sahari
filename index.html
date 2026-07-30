@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <tittle>Absensi Mahasiswa Kampus Youth</tittle>
+        <link rel="stylesheet" href="nama.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <p class="pertama">Absen Hadir</p>
+            <div class="Absen Siswa"><button class="Masuk">Klik Masuk</button></div>
+        </header>
+    </div>
+
+    <main>
+
+        <form>
+            <label class="email masukkan">Masukkan Email Anda :</label>
+            <input type="email" id="email" name="Masukkan Email Anda">
+            <br><br>
+
+            <label class="Masukkan Password">Masukkan Password Anda :</label>
+            <input type="password" id="password" name="Masukkan Password Anda :">
+            <br><br>
+ 
+        </form>
+
+        <h2>Absensi Mahasiswa</h2>
+
+        <form>
+            <label>Nama Mahasiswa</label> <!--Mahasiswa-->
+            <input type="text" name="Nama" placeholder="Absen Nama">
+            <br><br>
+
+            <label for="Kelas">Kelas Mu</label> <!--Pilihan-->
+            <select id="Kelas " name="Kelas">
+                <option value="103 A">Teknologi Informasi 1</option>
+                <option value="102 B">Teknologi Informatika 1</option>
+                <option value="101 C">Ruang Komputer</option>
+            </select>
+
+            <label> <!--Buat pilihan bulat-->
+            <input type="radio" name="Kehadiran" value="Hadir">
+            </label>
+            <label> <!--Buat pilihan bulat-->
+                <input type="radio" name="Kehadiran" value="Sakit">
+                </label>
+                <label> <!--Buat pilihan bulat-->
+                    <input type="radio" name="Kehadiran" value="Izin">
+                    </label>
+                    <label> <!--Buat pilihan bulat-->
+                        <input type="radio" name="Kehadiran" value="Alfha">
+                        </label>
+
+            <button class="Kirim Bang Jgn Manja">Kirim Bang</button>
+        </form>
+    </main>
+
+    <script src="loginscript.js"></script>
+</body>
+</html>
